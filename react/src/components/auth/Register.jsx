@@ -57,12 +57,12 @@ async function createAccount(e) {
           </div>
           <div className="form-group">
             <label htmlFor="">Password</label>
-            <input type="text" ref={passwordRef} />
+            <input type="password" ref={passwordRef} />
           {loginErrors?.password && <p className="err-txt">{loginErrors.password[0]}</p>}
           </div>
           <div className="form-group">
             <label htmlFor="">Confirm password</label>
-            <input type="text" ref={confirmPasswordRef} />
+            <input type="password" ref={confirmPasswordRef} />
           </div>
           <button type="submit" className="btn btn-primary">
             Register
