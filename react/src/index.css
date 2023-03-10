@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:root{
+  --primary-color: #0984e3;
+}
+body {
+  height: auto;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  color: #2d3436;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.btn {
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+.btn-sm {
+  padding: 0.3rem .8rem;
+  font-size: 15px;
+}
+.btn-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.btn-light {
+  background-color: #FFF;
+  color: var(--primary-color);
+}
+
+.me-1 {
+  margin-right: .25rem;
+}
+.me-2 {
+  margin-right: .5rem;
+}
+
+.similar-title {
+  font-size: 1.6rem;
+}
+
+.my-5 {
+  margin-top: 2rem!important;
+  margin-bottom: 2rem!important;
+}
+.d-flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+.btn-outline {
+  background: transparent;
+  color: #fff;
+  outline: 1px solid #ffffff8f;
+  padding: 0.3rem 1rem;
+  transition: all .4s;
+}
+.btn-outline:hover {
+  background-color: #fff;
+  color: var(--primary-color);
+
+}
+.delete-poster {
+  margin: .5rem 0;
+  transition: all .4s;
+}
+.delete-poster:hover {
+  transform: scale(.95);
+}
+
+.alert {
+  margin: 2rem 0;
+  background: var(--primary-color);
+  padding: 1.5rem;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.err-txt {
+  margin-top: 0.6rem;
+  color: #f39c12;
+}
